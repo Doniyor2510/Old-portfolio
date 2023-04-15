@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 400px;
+}
+
+.tire {
+  position: relative;
+  z-index: 20;
+}
+
+.tire .one {
+  width: 120px;
+  height: 120px;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-right: 20px;
+  position: absolute;
+  top: 357px;
+  left: -34px;
+  order: 1;
+  background-color: black;
+}
+
+.tire .two {
+  width: 120px;
+  height: 120px;
+  border: 1px solid black;
+  border-radius: 50px;
+  position: absolute;
+  top: 357px;
+  left: 318px;
+  order: 3;
+  background-color: black;
+
+}
+.three {
+  width: 700px;
+  height: 200px;
+  border: 1px solid black;
+  position: absolute;
+  top: 191px;
+  left: 258px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
+
+.div{
+    cursor: pointer;
+}
+.four {
+  width: 423px;
+  height: 154px;
+  border: 1px solid black;
+  position: absolute;
+  top: 37px;
+  left: 405px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.five {
+  width: 100px;
+  height: 17px;
+  border: 1px solid black;
+  position: absolute;
+  top: 376px;
+  left: 937px;
+  border-radius: 20px;
+}
+.six {
+  width: 740px;
+  height: 30px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  opacity: 0.6;
+  border: 1px solid black;
+  position: absolute;
+  left: 240px;
+  top: 391px;
+}
+
+table {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+table tbody tr {
+  height: 600px;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+table tbody td {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: black 1px solid;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+#red {
+  background-color: red;
+}
+#blue {
+  background-color: blue;
+}
+#green {
+  background-color: green;
+}
+#yellow {
+  background-color: yellow;
+}
+#pink {
+  background-color: pink;
+}
+#black {
+  background-color: black;
+}
+#white {
+  background-color: white;
+}
+#orange {
+  background-color: orange;
+}
+#gold {
+  background-color: gold;
+}
+#aqua {
+  background-color: aqua;
+}
+#yellowgreen {
+  background-color: yellowgreen;
+}
+#purple  {
+  background-color: purple ;
+}
+#gray  {
+  background-color: gray ;
+}
